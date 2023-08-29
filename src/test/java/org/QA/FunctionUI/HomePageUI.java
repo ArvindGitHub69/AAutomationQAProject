@@ -3,15 +3,11 @@ package org.QA.FunctionUI;
 import java.util.List;
 
 import org.QA.Util.BaseClass;
-import org.QA.page.MethodObjectManager;
 import org.QA.page.PageObjectManager;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.PageFactory;
 import org.testng.log4testng.Logger;
 
-import com.sun.tools.javac.util.BasicDiagnosticFormatter.BasicConfiguration;
 
 public class HomePageUI extends BaseClass {
 

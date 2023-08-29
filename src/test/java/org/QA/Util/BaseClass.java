@@ -1,6 +1,5 @@
 package org.QA.Util;
 
-import java.io.Serializable;
 import java.awt.AWTException;
 import java.awt.Robot;
 import java.awt.event.KeyEvent;
@@ -14,9 +13,7 @@ import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
-import org.apache.hc.core5.util.Timeout;
 import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.CellType;
 import org.apache.poi.ss.usermodel.DateUtil;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
@@ -39,14 +36,10 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterSuite;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
-import com.aventstack.extentreports.model.Report;
-import com.aventstack.extentreports.observer.ExtentObserver;
-import com.aventstack.extentreports.reporter.ExtentReporter;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
