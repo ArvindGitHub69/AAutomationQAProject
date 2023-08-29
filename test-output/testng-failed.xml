@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.QA.TestNG.Test_UI.TC1_Three_Slider_Only">
+      <class name="org.QA.TestNG.Test_API.TC1API">
         <methods>
-          <include name="Three_Slider_Only"/>
+          <include name="ObjectmappedPostPetName"/>
         </methods>
-      </class> <!-- org.QA.TestNG.Test_UI.TC1_Three_Slider_Only -->
+      </class> <!-- org.QA.TestNG.Test_API.TC1API -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
