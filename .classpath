@@ -28,5 +28,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry exported="true" kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="src" path="/Maven"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
