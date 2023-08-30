@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-29T20:08:43Z" name="Default suite" finished-at="2023-08-29T20:08:43Z" duration-ms="163">
+  <suite started-at="2023-08-30T07:00:47Z" name="Default suite" finished-at="2023-08-30T07:00:58Z" duration-ms="11274">
     <groups>
     </groups>
-    <test started-at="2023-08-29T20:08:43Z" name="Default test" finished-at="2023-08-29T20:08:43Z" duration-ms="163">
-      <class name="org.QA.TestNG.Test_API.TC1API">
-        <test-method signature="ObjectmappedPostPetName()[pri:0, instance:org.QA.TestNG.Test_API.TC1API@41c2284a]" started-at="2023-08-29T20:08:43Z" name="ObjectmappedPostPetName" finished-at="2023-08-29T20:08:43Z" duration-ms="147" status="PASS">
+    <test started-at="2023-08-30T07:00:47Z" name="Default test" finished-at="2023-08-30T07:00:58Z" duration-ms="11274">
+      <class name="org.QA.TestNG.Test_UI.TC1_Three_Slider_Only">
+        <test-method is-config="true" signature="ReportInit()[pri:0, instance:org.QA.TestNG.Test_UI.TC1_Three_Slider_Only@6a370f4]" started-at="2023-08-30T07:00:46Z" name="ReportInit" finished-at="2023-08-30T07:00:47Z" duration-ms="260" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ObjectmappedPostPetName -->
-      </class> <!-- org.QA.TestNG.Test_API.TC1API -->
+        </test-method> <!-- ReportInit -->
+        <test-method signature="Three_Slider_Only()[pri:0, instance:org.QA.TestNG.Test_UI.TC1_Three_Slider_Only@6a370f4]" started-at="2023-08-30T07:00:47Z" name="Three_Slider_Only" finished-at="2023-08-30T07:00:58Z" duration-ms="11264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Three_Slider_Only -->
+        <test-method is-config="true" signature="ReportGen()[pri:0, instance:org.QA.TestNG.Test_UI.TC1_Three_Slider_Only@6a370f4]" started-at="2023-08-30T07:00:58Z" name="ReportGen" finished-at="2023-08-30T07:00:58Z" duration-ms="441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportGen -->
+      </class> <!-- org.QA.TestNG.Test_UI.TC1_Three_Slider_Only -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
