@@ -31,7 +31,6 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestResult;
@@ -141,25 +140,25 @@ public class BaseClass {
 
 	// timeout for he page to load using WebDriver wait
 	public static void explicitWaitUntilVisible(WebElement element) {
-		WebDriverWait w = new WebDriverWait(d, 30);
+		WebDriverWait w = new WebDriverWait(d, Duration.ofSeconds(30));
 		w.until(ExpectedConditions.visibilityOf(element));
 	}
 
 	// timeout for he page to load using WebDriver wait
 	public static void explicitWaitUntilClickable(WebElement element) {
-		WebDriverWait w = new WebDriverWait(d, 30);
+		WebDriverWait w = new WebDriverWait(d, Duration.ofSeconds(30));
 		w.until(ExpectedConditions.elementToBeClickable(element));
 	}
 
 	// timeout for he page to load using WebDriver wait
 	public static void explicitWaitUntilSelected(WebElement element) {
-		WebDriverWait w = new WebDriverWait(d, 30);
+		WebDriverWait w = new WebDriverWait(d, Duration.ofSeconds(30));
 		w.until(ExpectedConditions.elementToBeSelected(element));
 	}
 
 	// timeout for he page to load using Fluent wait
 	public static void FluentWait() {
-		FluentWait<WebDriver> w = new FluentWait<WebDriver>(d);
+		org.openqa.selenium.support.ui.FluentWait<WebDriver> w = new org.openqa.selenium.support.ui.FluentWait<WebDriver>(d);
 		w.withTimeout(Duration.ofSeconds(30));
 	}
 
