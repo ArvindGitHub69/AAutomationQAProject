@@ -1,20 +1,3 @@
-<<<<<<< HEAD
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test name="Default test(failed)">
-    <classes>
-      <class name="org.QA.TestNG.Test_UI.TC1_Three_Slider_Only">
-        <methods>
-          <include name="Three_Slider_Only"/>
-          <include name="ReportGen"/>
-          <include name="ReportInit"/>
-        </methods>
-      </class> <!-- org.QA.TestNG.Test_UI.TC1_Three_Slider_Only -->
-    </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
-=======
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
@@ -30,4 +13,3 @@
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
->>>>>>> branch 'master' of https://github.com/ArvindGitHub69/AAutomationQAProject.git

@@ -75,7 +75,7 @@ public class TC1API {
 
 		RestAssured.given().header("Content-Type", "application/json").body(mp).log().all().when().post(st).then().log()
 				.all();
-	}
+			}
 
 	@Test
 	public void ObjectmappedPostPetName() throws JsonProcessingException {
